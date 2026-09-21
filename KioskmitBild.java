@@ -152,14 +152,12 @@ public class KioskmitBild extends Kiosk implements ActionListener {
         String preis = beleg.remove(0);
 
         // Gibt die Zeile perfekt ausgerichtet aus:
-        System.out.printf("%-20s %-10s %-10s Euro%n", produkt, stueck, preis);
+        System.out.printf("%-20s %-10s %-10s", produkt, stueck, preis);
+        System.out.println("");
 
              }
            
-               
-               
-        
-            
+                                 
 
        System.out.println("------------------------------------------------------------------------- ");
         System.out.println("Der Gesamtpreis belauft sich auf: " + gesamtpreis);
